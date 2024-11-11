@@ -1,0 +1,71 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to TrendyWear</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+
+<div class="hero">
+    <h1>Welcome to TrendyWear</h1>
+    <p>Explore the latest fashion trends and timeless pieces designed to elevate your wardrobe. Whether you're looking for a stylish outfit for any occasion or a classic wardrobe staple, we’ve got you covered.</p>
+</div>
+
+<section class="featured">
+    <h2>Mens Collection</h2>
+    <div class="product-list">
+        <!-- Repeat this block for each featured product -->
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/download.jpeg' %}" alt="Featured Product">
+            <h3>Stylish Shirt</h3>
+            <p>$50</p>
+        </div>
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/men3.jpeg' %}" alt="Featured Product">
+            <h3>Casual Dress</h3>
+            <p>$75</p>
+        </div>
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/shoe1.jpeg' %}" alt="Featured Product">
+            <h3>Elegant Blouse</h3>
+            <p>$60</p>
+        </div>
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/men2.jpeg' %}" alt="Featured Product">
+            <h3>Formal Suit</h3>
+            <p>$150</p>
+        </div>
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/sweat1.jpeg' %}" alt="Featured Product">
+            <h3>Cozy Sweater</h3>
+            <p>$45</p>
+        </div>
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/sweat3.jpeg' %}" alt="Featured Product">
+            <h3>Designer Jacket</h3>
+            <p>$120</p>
+        </div>
+
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/shoe4.jpeg' %}" alt="Featured Product">
+            <h3>Designer Jacket</h3>
+            <p>$120</p>
+        </div>
+
+        <div class="product-item">
+            <img src="{% static 'assets/mensimages/shoe1.jpeg' %}" alt="Featured Product">
+            <h3>Designer Jacket</h3>
+            <p>$120</p>
+        </div>
+
+
+
+    </div>
+</section>
+
+</body>
+</html>
