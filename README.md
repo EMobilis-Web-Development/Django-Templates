@@ -1,0 +1,3 @@
+--git clone the repo
+--pip install django
+--run the application using the command "python manage.py runserver"
